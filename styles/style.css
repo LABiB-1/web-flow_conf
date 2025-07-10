@@ -1,0 +1,33 @@
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+    margin: 0rem;
+    font-family:'Raleway';
+}
+header{
+    height: 43.5rem;
+    
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:13rem ;
+}
+
+.btn{
+    background-color: #4E47FF;
+    color:#FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 3rem;
+    border-radius: 1rem;
+    border: 0rem;
+}
+#banner{
+    text-align: center;
+}
