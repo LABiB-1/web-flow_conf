@@ -57,10 +57,27 @@ header{
     font-weight: bold;
 }
 
+#cardcontainer{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem;
+}
+
+.card{
+    stroke: #F2EDED;
+    width: 20rem;
+    border: .2rem;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
 #GetInTouch{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 8rem;
 }
 #GetInTouch h1{
     color: #000000;
