@@ -31,3 +31,28 @@ header{
 #banner{
     text-align: center;
 }
+#ProductiveUsers{
+    text-align: center;
+    padding: 1rem 9rem 3rem 9rem;
+    border-radius: .8rem;
+    background-color: #4E47FF20;
+    
+    margin-top: 7rem;
+    margin-bottom: 8.5rem;
+}
+#ProductiveUsers h1{
+    font-size: 2.5rem;
+    color: #252432;
+    margin-bottom: 2.5rem;
+
+}
+#ProductiveUsers div div {
+    font-size: 1.2rem;
+    color: #00000080;
+}
+#ProductiveUsers div div span{
+    display: inline-block;
+    color: #4E47FF;
+    font-size: 5rem;
+    font-weight: bold;
+}
