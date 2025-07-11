@@ -88,3 +88,23 @@ header{
     color: #000000;
     font-size: 1.2rem;
 }
+footer{
+    text-align: center;
+    color: #8987A1;
+    margin: 6rem 0rem;
+}
+footer h1{
+    font-size: 3rem;
+    color: #4E47FF;
+}
+footer div ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+
+}
+footer div ul a{
+    text-decoration: none;
+    color: #8987A1;
+}
