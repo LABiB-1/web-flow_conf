@@ -56,3 +56,35 @@ header{
     font-size: 5rem;
     font-weight: bold;
 }
+
+#GetInTouch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#GetInTouch h1{
+    color: #000000;
+    font-weight: bold;
+    font-size: 5.6rem;
+}
+.form label{
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 500;
+}
+.form input{
+    height: 4.3rem;
+    width: 29rem;
+    border-radius: .8rem;
+    padding-left: 2rem;
+    background-color: #FFFFFF;
+    stroke-width: #D6DDED;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+
+    
+}
+.form input ::placeholder{
+    color: #000000;
+    font-size: 1.2rem;
+}
