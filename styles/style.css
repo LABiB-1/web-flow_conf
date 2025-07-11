@@ -7,9 +7,12 @@
 body{
     margin: 0rem;
     font-family:'Raleway';
+    background-color:#1508ca10;
 }
 header{
     height: 43.5rem;
+    border-radius: 0rem 0rem 3rem 3rem;
+    box-shadow: 0 4px 12px #00000016;
     
 }
 #navbar{
@@ -27,6 +30,11 @@ header{
     height: 3rem;
     border-radius: 1rem;
     border: 0rem;
+}
+.btn:hover {
+  background-color: yellow;
+  color: #000000;
+  transform: scale(1.05);
 }
 #banner{
     text-align: center;
@@ -64,13 +72,18 @@ header{
 }
 
 .card{
+    background-color:aliceblue;
     stroke: #F2EDED;
     width: 20rem;
     border: .2rem;
     border-radius: 1.5rem;
     padding: 1.5rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-
+    box-shadow: 0 4px 12px #00000016;
+}
+.card:hover {
+  background-color: #4E47FF20;
+  color: #000000;
+  transform: scale(1.05);
 }
 
 #GetInTouch{
@@ -108,7 +121,9 @@ header{
 footer{
     text-align: center;
     color: #8987A1;
-    margin: 6rem 0rem;
+    padding: 6rem 0rem;
+    background-color: #FFFFFF;
+    border-radius: 3rem 3rem 0rem 0rem;
 }
 footer h1{
     font-size: 3rem;
